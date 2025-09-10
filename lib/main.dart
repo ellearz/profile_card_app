@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:test_app/login_screen.dart';
 import 'package:test_app/profile_page.dart';
+import 'package:test_app/registration_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProfilePage()
+      home: RegistrationForm()
     );
   }
 }
